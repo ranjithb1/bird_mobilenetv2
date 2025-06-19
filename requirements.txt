@@ -1,5 +1,4 @@
-python
-Werkzeug
+
 Flask
 numpy
 keras
