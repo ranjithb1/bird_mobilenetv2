@@ -1,5 +1,4 @@
 setuptools>=42
-python-3.10.13
 wheel
 Flask
 numpy
