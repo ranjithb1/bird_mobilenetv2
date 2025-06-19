@@ -5,7 +5,7 @@ from PIL import Image
 import string
 import random
 import os
-import tensorflow as tf
+import tflite_runtime.interpreter as tflite
 from werkzeug.utils import secure_filename
 import time
 import csv
@@ -42,7 +42,8 @@ try:
         raise FileNotFoundError(f"Model file not found at: {model_path}")
 
     # Load TFLite model and allocate tensors
-    interpreter = tf.lite.Interpreter(model_path=str(model_path))
+    interpreter = tflite.Interpreter(model_path=str(model_path))
+   
     interpreter.allocate_tensors()
 
     # Get input and output details
