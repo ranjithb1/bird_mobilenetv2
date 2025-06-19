@@ -5,4 +5,4 @@ numpy
 tflite
 Pillow
 gunicorn
-tensorflow
+tensorflow>=2.10
