@@ -2,6 +2,6 @@ setuptools>=42
 wheel
 Flask
 numpy
-tensorflow-runtime
+tflite-runtime
 Pillow
 gunicorn
