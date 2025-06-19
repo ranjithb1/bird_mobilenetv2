@@ -6,6 +6,6 @@ tflite
 Pillow
 gunicorn
 tensorflow
-tflite-runtime==2.14.0
-tflite==2.18.0
+tflite-runtime
+tflite
 
