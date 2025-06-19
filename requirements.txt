@@ -1,5 +1,7 @@
-Flask==1.1.1
-numpy==1.19.3
-keras==2.4.3
-Pillow==8.1.0
-gunicorn
+Flask==3.0.0
+tensorflow-cpu==2.15.0  # Lighter than full tensorflow (no GPU needed)
+Pillow==10.1.0
+numpy==1.26.3
+Werkzeug==3.0.1
+python-dotenv==1.0.0
+gunicorn==21.2.0  # Production WSGI server for Render
