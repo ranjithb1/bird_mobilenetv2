@@ -257,14 +257,7 @@
           <i class="fas fa-spinner"></i> Processing...
         </div>
       </form>
-      {% if pred_class %}
-        <div class="prediction-result">
-          <span>Predicted Bird:</span>
-          <strong>{{ pred_class }}</strong>
-          <span>Confidence: {{ confidence }}%</span>
-          <a href="https://en.wikipedia.org/wiki/{{ pred_class | replace(' ', '_') }}" target="_blank">Learn More</a>
-        </div>
-      {% endif %}
+      
       {% if pred_class %}
   <div class="prediction-result">
     <span>Predicted Bird:</span>
