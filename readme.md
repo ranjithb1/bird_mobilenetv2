@@ -1,6 +1,6 @@
-Bird Species Classifier using Transfer Learning (VGG16)
-
-Leverage VGG16 as a feature extractor by adding custom classification layers on top.
+Bird Species Classifier using Transfer Learning (MOBILENETV2)
+Comparison of Different popular Image Classfication models, results and taking up suitable high perfomed model for efficiency.
+Leverage MobilenetV2 as a feature extractor by adding custom classification layers on top.
 Preprocess and augment image data using Keras' ImageDataGenerator to improve model robustness.
 Split the dataset into training, validation, and test sets for proper model evaluation.
 Train the model with callbacks such as early stopping and learning rate reduction to prevent overfitting.
