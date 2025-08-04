@@ -85,3 +85,166 @@ The confidence score.
 inference , preprocesiignt time to predict it 
 A link to more information about the predicted bird.
 ✅ This makes the app fully functional for real-time bird species recognition!
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Species Classifier</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer, .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background-color: #e8f5fe;
+      padding: 30px 20px;
+      border-bottom: 2px solid #ccc;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 2.5em;
+    }
+    .social-icons img {
+      height: 30px;
+      margin: 0 10px;
+    }
+    .tech-icons img {
+      height: 40px;
+      margin: 0 8px;
+    }
+    .code-block {
+      background: #eee;
+      padding: 15px;
+      border-radius: 5px;
+      font-family: monospace;
+      overflow-x: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 1.5em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .center {
+      text-align: center;
+    }
+    .gif-right {
+      float: right;
+      height: 230px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bird Species Classifier using Transfer Learning (MobileNetV2)</h1>
+    <img src="https://img.shields.io/badge/BirdNetV2-Deployed-green" alt="Model Status">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ranjith-ece">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+      <a href="#">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Twitter">
+      </a>
+      <a href="#">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968853.png" alt="Dev.to">
+      </a>
+    </div>
+    <h3>🕵️ Ranjith | 🎓 ECE Student | 🔬 AI & Embedded Enthusiast</h3>
+    <p><img src="https://visitor-badge.laobi.icu/badge?page_id=ranjith-ece.bird-classifier" alt="Visitor Badge"></p>
+    <p><i>✨ Fun Fact: I trained this model faster than my coffee cooled down.</i></p>
+  </header>
+
+  <div class="content">
+    <img class="gif-right" src="https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif" alt="Bird GIF">
+    <h2 class="section-title">🎓 Project Summary</h2>
+    <ul>
+      <li>🔄 Compared multiple classification models</li>
+      <li>🔗 Used MobileNetV2 for feature extraction</li>
+      <li>⚖️ Evaluated with accuracy, confusion matrix, and classification report</li>
+      <li>🔢 Converted to TFLite with int16 quantization for deployment</li>
+      <li>🏠 Flask web app + Android integration using WebView</li>
+    </ul>
+
+```
+<h2 class="section-title">🛠️ Tech Stack</h2>
+<div class="center tech-icons">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,flask,html,css,js,git,vscode" alt="Tech Stack">
+</div>
+
+<h2 class="section-title">📊 Model Details</h2>
+<p><b>Trained model:</b> bird_species.h5</p>
+<p><b>Classes:</b> American Goldfinch, Barn Owl, Carmine Bee-Eater, Downy Woodpecker, Emperor Penguin, Flamingo</p>
+
+<h2 class="section-title">📅 Quick Start</h2>
+<div class="code-block">
+  git clone https://github.com/ranjithbq/PROJECT_TEST1.git<br>
+  cd PROJECT_TEST1<br>
+  python -m venv venv<br>
+  source venv/bin/activate  # or venv\Scripts\activate<br>
+  pip install -r requirements.txt<br>
+  python app/views.py
+</div>
+<p>Then open: <b>http://127.0.0.1:5000</b></p>
+
+<h2 class="section-title">🌐 Deployment</h2>
+<p>Live Demo: <a href="https://bird-mobilenetv2-1.onrender.com">https://bird-mobilenetv2-1.onrender.com</a></p>
+<p>Android APK: <a href="https://median.co/share/xkymxy#apk">Download APK</a></p>
+
+<h2 class="section-title">🚀 App Workflow</h2>
+<ol>
+  <li>Upload bird image (camera/file)</li>
+  <li>View preview and predict</li>
+  <li>See predicted class with confidence</li>
+  <li>Enjoy smooth Web + Android experience</li>
+</ol>
+
+<h2 class="section-title">📁 Project Structure</h2>
+<pre class="code-block">
+```
+
+PROJECT\_TEST1/
+├── app/
+│   ├── static/
+│   ├── templates/
+│   └── views.py
+├── model/
+│   └── bird\_species.h5
+├── data/
+├── README.md
+├── requirements.txt
+└── ... </pre>
+
+```
+<h2 class="section-title">✨ Let's Connect</h2>
+<p class="center">💬 Reach out on <a href="https://www.linkedin.com/in/ranjith-ece">LinkedIn</a> or star this project!</p>
+
+<h2 class="section-title">💪 Support & Contribution</h2>
+<p class="center">✨ Issues, PRs, stars ⭐️, and forks are welcome!</p>
+<p class="center">💜 Built with passion for birds, code, and clean UI.</p>
+
+<h2 class="center">✨ Keep Building. Keep Innovating. ✨</h2>
+```
+
+  </div>
+
+  <footer class="center">
+    <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Bottom Banner">
+  </footer>
+</body>
+</html>
